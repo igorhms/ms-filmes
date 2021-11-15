@@ -1,0 +1,18 @@
+package com.iftm.mscatalogservice.resources;
+
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.iftm.mscatalogservice.models.CatalogItem;
+
+@RestController
+public class CatalogResource {
+
+	public List<CatalogItem> getCatalog(String userId) {
+		return Collections.singletonList(
+				new CatalogItem("Igor", "Teste", 4)
+		);
+	}
+}
