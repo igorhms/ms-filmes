@@ -17,4 +17,7 @@ public class CatalogResource {
 	public List<CatalogItem> getCatalog(@PathVariable String userId) {
 		return Collections.singletonList(new CatalogItem("Igor", "Teste", 4));
 	}
+	
+	
+	
 }

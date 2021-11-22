@@ -1,0 +1,5 @@
+package com.iftm.ratingdataservice.resources;
+
+public class RatingsResources {
+
+}

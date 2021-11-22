@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.iftm.msinfoservice.models.Movie;
 
-
 @RestController
 @RequestMapping("/movies")
 public class MovieResource {
-	
+
 	@RequestMapping("/{movieId}")
 	public Movie getMovieInfo(@PathVariable String movieId) {
 		return new Movie(movieId, "Nome de teste");
 	}
+
 }

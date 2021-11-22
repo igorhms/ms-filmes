@@ -1,0 +1,9 @@
+package com.iftm.ratingdataservice.models;
+
+public class Rating {
+
+	public Rating(String movieId, int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+}
