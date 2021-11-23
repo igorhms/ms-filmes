@@ -8,6 +8,6 @@ import lombok.Data;
 public class Movie {
 
 	private String movieId;
-	private String nome;
+	private String name;
 	
 }
