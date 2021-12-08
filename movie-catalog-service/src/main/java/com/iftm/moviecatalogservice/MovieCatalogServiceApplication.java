@@ -11,17 +11,16 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 public class MovieCatalogServiceApplication {
 
+	public static void main(String[] args) {
+		SpringApplication.run(MovieCatalogServiceApplication.class, args);
+	}
 	//@Bean serve para exportar uma classe para o Spring, para que ele consiga carregar essa
 	//classe e fazer injeção de dependência dela em outra classes.
 	//o Bean informa que tem algum dado disponível e o Autowired informa que precisa desse dado
-	@Bean
 	@LoadBalanced
+	@Bean
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
-	}
-
-	public static void main(String[] args) {
-		SpringApplication.run(MovieCatalogServiceApplication.class, args);
 	}
 
 }

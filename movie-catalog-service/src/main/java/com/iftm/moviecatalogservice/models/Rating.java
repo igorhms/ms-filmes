@@ -10,7 +10,8 @@ public class Rating {
         this.rating = rating;
     }
 
-    public String getMovieId() {return movieId;}
+    public Rating() {}
+	public String getMovieId() {return movieId;}
     public void setMovieId(String movieId) {this.movieId = movieId;}
     public int getRating() {return rating;}
     public void setRating(int rating) {this.rating = rating;}
