@@ -1,5 +1,0 @@
-package com.iftm.mscatalogservice.models;
-
-public class CatalogItem {
-
-}

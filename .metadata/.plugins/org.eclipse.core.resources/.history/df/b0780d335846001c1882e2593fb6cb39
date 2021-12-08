@@ -1,6 +1,0 @@
-package com.iftm.msinfoservice.resources;
-
-@RestController
-public class MovieResource {
-	
-}
